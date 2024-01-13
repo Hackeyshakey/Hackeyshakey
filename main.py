@@ -2,9 +2,9 @@ import asyncio, random, string, json
 from discord.ext import commands, tasks
 import re, discord
 
-TOKEN = "TOKEN" #user_token
-SPAM_CHANNEL_id = 1234 #spam_channel_id
-CAPTCHA_CHANNEL_id = 1234 #captcha_alert_channel_id 
+TOKEN = "ODgxMTcxODg2NDc2NzYzMTQ2.YVc5EA.DxbAiZWwfKBCnODUnJdmOyg8_5Y" #user_token
+SPAM_CHANNEL_id = 881523895990112326 #spam_channel_id
+CAPTCHA_CHANNEL_id = 1195736888284299264 #captcha_alert_channel_id 
 
 with open('pokemon', 'r', encoding='utf8') as file: 
     pokemon_list = file.read()
